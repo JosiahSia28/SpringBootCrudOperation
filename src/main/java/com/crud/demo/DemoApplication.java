@@ -1,7 +1,6 @@
 package com.crud.demo;
 
 import com.crud.demo.UI.UI;
-import com.crud.demo.dao.StudentDAO;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -17,6 +16,7 @@ private static ConfigurableApplicationContext context;
         // Launch Swing UI
         java.awt.EventQueue.invokeLater(() -> new UI().setVisible(true));
     }
+
 
     // Getter so UI can access beans
     public static ConfigurableApplicationContext getContext() {
