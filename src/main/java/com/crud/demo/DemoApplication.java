@@ -17,7 +17,6 @@ private static ConfigurableApplicationContext context;
         java.awt.EventQueue.invokeLater(() -> new UI().setVisible(true));
     }
 
-
     // Getter so UI can access beans
     public static ConfigurableApplicationContext getContext() {
         return context;
